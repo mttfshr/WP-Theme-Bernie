@@ -11,3 +11,7 @@ The repo is structured into branches that correspond more or less to sections of
   1. Theme Structure
    
    This branch follows the Core Concepts section of the handbook. Most of them are blank and only here for illustration of the structure. I removed patterns/example.php and added minimal info to theme.json because having those blank threw errors.
+
+   2. Minimal template parts
+
+  This branch adds enough to template parts to make pages and posts render. The handbook goes into theme.json next but I need to have things onscreen before I can style them.
