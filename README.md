@@ -15,3 +15,7 @@ The repo is structured into branches that correspond more or less to sections of
    2. Minimal template parts
 
   This branch adds enough to template parts to make pages and posts render. The handbook goes into theme.json next but I need to have things onscreen before I can style them.
+
+  3. Global Settings
+
+  This branch roughly follows the Global Settings and Styles section of the handbook.
