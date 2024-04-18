@@ -184,7 +184,23 @@
 			]
 		}
 	],
-  "templateParts": [],
+  "templateParts": [
+    {
+			"area": "header",
+			"name": "bernie-header-1",
+			"title": "Bernie Header 1"
+		},
+		{
+			"area": "footer",
+			"name": "bernie-footer-1",
+			"title": "Bernie Footer 1"
+		},
+    {
+			"area": "general",
+			"name": "bernie-single-post-content-1",
+			"title": "Bernie Single Post Content 1"
+		}
+  ],
   "patterns": [
     "two-columns-of-text"
   ]
