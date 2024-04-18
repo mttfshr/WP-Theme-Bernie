@@ -1,7 +1,191 @@
 {
-	"$schema": "https://schemas.wp.org/trunk/theme.json",
-	"version": 2,
-	"settings": {
-		"appearanceTools": true
-	}
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 2,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "background": true,
+      "custom": false,
+      "customDuotone": false,
+      "customGradient": false,
+      "defaultDuotone": false,
+      "defaultGradients": false,
+      "defaultPalette": false,
+      "duotone": [
+        {
+          "colors": [
+            "#006ba6",
+            "#0496ff"
+          ],
+          "name": "Ocean to Sky",
+          "slug": "ocean-to-sky"
+        },
+        {
+          "colors": [
+            "#ffbc42",
+            "#d81159"
+          ],
+          "name": "Sunset",
+          "slug": "sunset"
+        }
+      ],
+      "gradients": [
+        {
+          "gradient": "linear-gradient(135deg, #006ba6, #0496ff)",
+          "name": "Cool Breeze",
+          "slug": "cool-breeze"
+        },
+        {
+          "gradient": "linear-gradient(135deg, #ffbc42, #d81159)",
+          "name": "Warm Flame",
+          "slug": "warm-flame"
+        }
+      ],
+      "link": true,
+      "palette": [
+        {
+          "color": "#006ba6",
+          "name": "Ocean Blue",
+          "slug": "ocean-blue"
+        },
+        {
+          "color": "#0496ff",
+          "name": "Bright Sky Blue",
+          "slug": "bright-sky-blue"
+        },
+        {
+          "color": "#ffbc42",
+          "name": "Saffron",
+          "slug": "saffron"
+        },
+        {
+          "color": "#d81159",
+          "name": "Carmine Pink",
+          "slug": "carmine-pink"
+        },
+        {
+          "color": "#f4f4f9",
+          "name": "Lavender Grey",
+          "slug": "lavender-grey"
+        }
+      ],
+      "text": true
+    },
+    "layout": {
+      "contentSize": "40rem",
+      "wideSize": "64rem"
+    },
+    "shadow": {
+      "defaultPresets": true,
+      "presets": [
+        {
+          "name": "Natural",
+          "slug": "natural",
+          "shadow": "6px 6px 9px rgba(0, 0, 0, 0.2)"
+        },
+        {
+          "name": "Deep",
+          "slug": "deep",
+          "shadow": "12px 12px 50px rgba(0, 0, 0, 0.4)"
+        },
+        {
+          "name": "Sharp",
+          "slug": "sharp",
+          "shadow": "6px 6px 0px rgba(0, 0, 0, 0.2)"
+        },
+        {
+          "name": "Outlined",
+          "slug": "outlined",
+          "shadow": "6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1)"
+        },
+        {
+          "name": "Crisp",
+          "slug": "crisp",
+          "shadow": "6px 6px 0px rgba(0, 0, 0, 1)"
+        }
+      ]
+    },
+    "spacing": {
+      "blockGap": true,
+      "customSpacingSize": true,
+      "margin": true,
+      "padding": true,
+      "spacingScale": {
+        "operator": "*",
+        "increment": 1.5,
+        "steps": 7,
+        "mediumStep": 1.5,
+        "unit": "rem"
+      },
+      "spacingSizes": [],
+      "units": [
+        "px",
+        "em",
+        "rem",
+        "vh",
+        "vw",
+        "%"
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "system-ui",
+          "name": "Primary",
+          "slug": "primary"
+        },
+        {
+          "fontFamily": "Merriweather",
+          "name": "Secondary",
+          "slug": "secondary"
+        },
+        {
+          "fontFamily": "Fira Code",
+          "name": "Monospace",
+          "slug": "monospace"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "blocks": {
+			"core/image": {
+				"border": {
+					"radius": "6px"
+				}
+			}
+		},
+    "color": {
+			"text": "#000000",
+			"background": "#f5f1ea"
+		},
+    "elements": {
+			"button": {
+				"color": {
+					"text": "#ffffff",
+					"background": "#aa3f33"
+				}
+			}
+		},
+    "typography": {
+      "fontFamily": "var:preset|font-family|primary",
+      "fontSize": "16px",
+      "lineHeight": "1.5",
+      "letterSpacing": "0.01em"
+    }
+  },
+  "customTemplates": [
+		{
+			"name": "landing-page",
+			"title": "Landing Page",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
+  "templateParts": [],
+  "patterns": [
+    "two-columns-of-text"
+  ]
 }
