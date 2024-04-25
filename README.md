@@ -19,3 +19,11 @@ The repo is structured into branches that correspond more or less to sections of
   3. Global Settings
 
   This branch roughly follows the Global Settings and Styles section of the handbook.
+
+  4. Templates
+
+  This branch roughly follows the Templates section of the handbook.
+
+  ### Notes
+
+  The docs call it out, but the General template part area is called 'uncategorized' in the config.
