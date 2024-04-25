@@ -199,6 +199,11 @@
 			"area": "uncategorized",
 			"name": "bernie-single-post-content-1",
 			"title": "Bernie Single Post Content 1"
+		},
+    {
+			"area": "sidebar",
+			"name": "bernie-sidebar-1",
+			"title": "Bernie Sidebar 1"
 		}
   ],
   "patterns": [
