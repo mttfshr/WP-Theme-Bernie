@@ -24,6 +24,10 @@ The repo is structured into branches that correspond more or less to sections of
 
   This branch roughly follows the Templates section of the handbook.
 
+  5. Features
+   
+  This branch roughly follows the Features section of the handbook.
+
   ### Notes
 
 The docs call it out, but the General template part area is called 'uncategorized' in the config.
